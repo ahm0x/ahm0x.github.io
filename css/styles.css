@@ -812,7 +812,6 @@ a:hover {
   justify-content: center;
   margin-bottom: var(--space-8);
   margin-left: 90px;
-  max-width: 600px;
   animation: fade-up 1s ease-out 0.7s both;
 }
 
@@ -1372,4 +1371,5 @@ a:hover {
   .timeline-item::before {
     left: 4px;
   }
+
 }
