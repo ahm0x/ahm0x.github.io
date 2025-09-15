@@ -806,8 +806,12 @@ a:hover {
 }
 
 .lead {
+  display:flex;
   font-size: 1.125rem;
+  text-align: center !important;
+  justify-content: center;
   margin-bottom: var(--space-8);
+  margin-left: 90px;
   max-width: 600px;
   animation: fade-up 1s ease-out 0.7s both;
 }
@@ -1147,6 +1151,13 @@ a:hover {
   grid-template-columns: 1fr 400px;
   gap: var(--space-12);
   align-items: start;
+}
+.centered-hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .contact-form {
