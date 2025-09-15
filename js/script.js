@@ -11,7 +11,7 @@ const translations = {
     'hero.cta.projects': 'Ver proyectos',
     'hero.cta.resume': 'Descargar CV',
     'hero.project.title': 'Último proyecto destacado',
-    'hero.project.description': 'Dashboard de analítica con Next.js + Charts',
+    'hero.project.description': 'Simulador de RayTracing con C y SDL2',
     'projects.title': 'Proyectos Destacados',
     'projects.subtitle': 'Algunos trabajos que muestran mi experiencia y habilidades',
     'experience.title': 'Experiencia Profesional',
@@ -40,7 +40,7 @@ const translations = {
     'hero.cta.projects': 'View projects',
     'hero.cta.resume': 'Download CV',
     'hero.project.title': 'Latest featured project',
-    'hero.project.description': 'Analytics dashboard with Next.js + Charts',
+    'hero.project.description': 'RayTracing Simulator with C and SDL2',
     'projects.title': 'Featured Projects',
     'projects.subtitle': 'Some work that showcases my experience and skills',
     'experience.title': 'Professional Experience',
@@ -69,7 +69,7 @@ const translations = {
     'hero.cta.projects': 'Voir les projets',
     'hero.cta.resume': 'Télécharger CV',
     'hero.project.title': 'Dernier projet en vedette',
-    'hero.project.description': 'Dashboard d\'analyse avec Next.js + Charts',
+    'hero.project.description': 'Simulateur de RayTracing avec C et SDL2',
     'projects.title': 'Projets en Vedette',
     'projects.subtitle': 'Quelques travaux qui montrent mon expérience et mes compétences',
     'experience.title': 'Expérience Professionnelle',
@@ -98,7 +98,7 @@ const translations = {
     'hero.cta.projects': 'Projekte ansehen',
     'hero.cta.resume': 'Lebenslauf herunterladen',
     'hero.project.title': 'Neuestes vorgestelltes Projekt',
-    'hero.project.description': 'Analytics-Dashboard mit Next.js + Charts',
+    'hero.project.description': 'RayTracing-Simulator mit C und SDL2',
     'projects.title': 'Ausgewählte Projekte',
     'projects.subtitle': 'Einige Arbeiten, die meine Erfahrung und Fähigkeiten zeigen',
     'experience.title': 'Berufserfahrung',
@@ -556,4 +556,5 @@ if (document.readyState === 'loading') {
   });
 } else {
   new ModernPortfolio();
+
 }
